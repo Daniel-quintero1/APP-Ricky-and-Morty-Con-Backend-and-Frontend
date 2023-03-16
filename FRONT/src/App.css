@@ -1,0 +1,50 @@
+/* aca  haremos los fondos de la pagina */
+.App {
+   
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size: 22px;    
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+      height: 100vh;
+    
+      overflow: hidden;
+
+   background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/OEKCSJM6EVALLNKGJJS3KDSU74.jpg);
+
+}
+.TwoApp {
+   background: #f0f0f0;
+   display: flex;
+   margin: auto;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.5rem;
+   color: rgb(121, 122, 21);
+   background-image: url(https://c.wallhere.com/photos/ed/4b/space_anime_planet_stars_galaxy-1946861.jpg!d);
+   /* esta opcion te fija la iamgen en la pantalla */
+   position: relative;
+   text-align: center; 
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+   /* text aliagn center centra el texto  */
+   opacity:0.95 ;
+   /* recuerda para trasparencia es opacity */
+
+}
+@media (max-width: 480px) {
+   .container {
+     width: 100vh;
+   }
+ 
+   .panel:nth-of-type(4),
+   .panel:nth-of-type(5) {
+     display: none;
+   }
+ }

@@ -1,0 +1,11 @@
+.APP {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0%;
+    width: 200%;
+    height: 300vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

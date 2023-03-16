@@ -1,0 +1,119 @@
+.buttonInicio {
+  /* color: red; */
+  /* max-width: 110%; */
+  /* background-color: black; */
+  /* border: 100; */
+  /* border-radius: 10px;  */
+  /* padding: 5px 5px    */
+  padding:  5px 20px;
+  border: none;
+  border-bottom: 0.3rem solid;
+  border-Radius: 4px;
+  background: black;
+  color: red;
+  font-Size:  14;
+  cursor: help;
+  scroll-margin: 20px;
+  margin-top: 0.1em;
+  position: -webkit-sticky;
+  top: 300px; left: 145px;
+  
+  /* position:static ; 
+  top: 160px; left: 730px;
+*/
+  /* appearance:unset */
+  /* animation-iteration-count: 0; */
+  /* transform-origin: -100% 50%;
+  transform: rotate(15deg); */
+}
+
+
+.tittle {
+margin-top: 0.0001em;
+margin-bottom: 1.2em;
+color: rgb(223, 1, 1);
+height:0.1em;
+max-width: 100%;
+font-size: 25pt;
+/* border: 14;
+border-radius: 90%;
+padding:60px 100px; */
+/* text-decoration: line-through; */
+/* text-decoration: blink; */
+/* text-decoration: overline; */
+/* text-decoration: underline; */
+/* text-align: center; */
+  table-layout: auto;
+  width: 100%;    
+  /* transform-origin: 0px 0px;
+  transform: translate(-70%, 10%) rotate(12deg) translate(70%, 0.1%); */
+  font: italic small-caps bold 30px/2 cursive; 
+
+} 
+
+.container {
+display: flex;
+margin: 2em;
+width: 90vw;
+height: 90vh;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+.menuli {
+width: 100px;
+height: 30px;
+cursor:pointer;
+border-radius: 20px;
+display:grid;
+align-items: center;
+justify-content: center;
+background-color:rgba(255, 0, 0, 0.24);
+background-image: linear-gradient(3deg, #cdb436 0%, rgba(255, 0, 0, 0.181) 0%);
+background-size: 300% 100%;
+background-position: left;
+transition: 30ms;
+color:rgba(255, 0, 0, 0.24);
+margin: 0px;
+position: relative;
+top:10px ; left: 35px;
+font-weight: bold;
+font-size: large
+}
+.image {
+width: 50em;
+height: 25em;
+object-fit: cover;
+box-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menuB {
+position: relative;
+top: -200px; left: 50px;
+height: -40px;
+-webkit-transform: translate(-5%, -5%);
+transform: translate(0%, -40%);
+}
+.ImagenInterna {
+margin: 1em;
+border: solid #454545;
+background-color: rgb(12, 3, 20);
+padding: 2em;
+width: 10em;
+height: 10em;
+object-fit:cover;
+top: 200px;
+}
+.ImagLi {
+display: inline;
+align-content: center;
+list-style: none;
+width: 5em;
+}
+
+.ImageR {
+display: flex;
+justify-content: center;
+position: relative;
+top: -100px;
+}
