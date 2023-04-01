@@ -1,4 +1,4 @@
-const {User} = require("../DB_connection");
+const { User } = require("../DB_connection");
 
 const login = async (req, res) => {
   const { email, password } = req.query;
@@ -17,5 +17,5 @@ const login = async (req, res) => {
 };
 
 module.exports = {
-    login
-}
+  login,
+};

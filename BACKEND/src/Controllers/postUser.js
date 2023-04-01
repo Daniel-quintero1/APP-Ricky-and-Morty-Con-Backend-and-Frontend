@@ -2,7 +2,7 @@ const { User } = require("../DB_connection");
 
 const postUser = async (req, res) => {
   const { id, email, password } = req.body;
-  if (![id, email, password].every(Boolean))
+  if (![email, password].every(Boolean))
     return res.status(400).send("Faltan datos");
   try {
     const usuario = await User.findOrCreate({ where: { id, email, password } }); //findOne, devuelve la primera instancia que cumple con las opciones que pasan por parametro

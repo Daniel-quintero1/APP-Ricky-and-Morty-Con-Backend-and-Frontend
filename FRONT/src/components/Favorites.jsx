@@ -1,6 +1,6 @@
 import { connect, useDispatch } from "react-redux"
 import { useNavigate } from "react-router-dom";
-import { filterCards, orderCards } from "../redux/action";
+import { filterCards, orderCards} from "../redux/action";
 import CARDS from '../components/Cards.module.css'
 
 export function Favorites({ myFavorites }) {
@@ -16,6 +16,7 @@ const handleSubmit = (e) => {
     const value = e.target.value;
   if(name === 'ordenes') return dispatch(orderCards(value))
   if ( name === 'filter') return dispatch(filterCards(value))
+
 }
     return (
         <div >

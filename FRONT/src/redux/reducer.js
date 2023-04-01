@@ -1,7 +1,8 @@
 
-import {ADD_PRODUCT, DELETE_PRODUCT, FILTER, ORDER} from './store'
+import {ADD_PRODUCT, DELETE_PRODUCT, FILTER, ORDER, LOGIN} from './store'
 // recuerda este es el estado global inicial
 const initialState = {
+    idUser: 0,
     myFavorites: [],
     allCharacter: [],
 }
@@ -42,8 +43,15 @@ const rootReducer = (state = initialState, {type, payload}) => {
                         ...state,
                         myFavorites: ordenes
                     }
-            default:
+                    case LOGIN: {
+                        return {
+                            ...state,
+                            idUser: payload
+                        }
+                    }
+                default:
                 return{...state };
+            
     } 
 }
 export default rootReducer;

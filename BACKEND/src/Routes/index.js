@@ -19,6 +19,7 @@ router.get("/login", login);
 router.post("/login", postUser);
 
 module.exports = { router };
+
 // router.post("/fav", async (req, res) => {
 //   const { image, name, gender, species } = req.body;
 //   if (!image || !name || !gender || !species)
